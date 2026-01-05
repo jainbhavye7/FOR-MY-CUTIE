@@ -385,8 +385,8 @@ body {
 .decorate_star.star1{
     width: 20px;
     height: 20px;
-    top: 75px;
-    left: 300px;
+    top: 100px;
+    right: 25px;
 }
 .decorate_star.star2{
     width: 15px;
@@ -428,21 +428,21 @@ body {
 .decorate_flower--one{
     position: absolute;
     top: 250px;
-    left: 50px;
+    left: 25px;
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;
 }
 .decorate_flower--two{
     position: absolute;
     top: 225px;
-    left: 540px;
+    right: 25px;
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;
 }
 .decorate_flower--three{
     position: absolute;
-    top: 150px;
-    right: 235px;
+    top: 145px;
+    left: 35px;
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;
 }
@@ -853,7 +853,7 @@ body {
 }
 .boxMail .boxMail-container .card1 {
     /* SWIPE HINT — ONLY FOR FIRST PAGE (CARD 1) */
-.card1 .swipe-hint{
+.card1 .tap-hint{
     position: absolute;
     bottom: 30px;
     right: 30px;
@@ -864,10 +864,10 @@ body {
     font-size: 16px;
     opacity: 0.9;
     pointer-events: none;
-    animation: swipeMove 2s infinite ease-in-out;
+    animation: tap 2s infinite ease-in-out;
 }
 
-.card1 .swipe-hint i{
+.card1 .tap-hint i{
     font-size: 22px;
 }
 
